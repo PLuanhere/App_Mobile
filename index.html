@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>FirstScreen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .section {
+            width: 360px;
+            height: 640px;
+            background-color: #00CCF9;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .circle {
+            margin: 67px 110px;
+            width: 140px;
+            height: 140px;
+            border: 15px solid black;
+            border-radius: 50%;
+        }
+
+        .title {
+            display: flex;
+            font-size: 25px;
+            font-weight: 700;
+            margin: 0 86px;
+            text-align: center;
+        }
+
+        .description {
+            font-size: 15px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .button {
+            display: flex;
+            gap: 50px;
+        }
+
+        .login button {
+            width: 120px;
+            height: 48px;
+            background-color: rgb(223, 176, 24);
+            color: black;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .signup button {
+            width: 120px;
+            height: 48px;
+            background-color: rgb(223, 176, 24);
+            color: black;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+    <div class="section">
+        <div class="circle"></div>
+        <h2 class="title">GROW YOUR BUSINESS</h2>
+        <p class="description">We will help you to grow your business using online server</p>
+        <div class="button">
+            <div class="login">
+                <button><strong>LOGIN</strong></button>
+            </div>
+            <div class="signup">
+                <button><strong>SIGN UP</strong></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

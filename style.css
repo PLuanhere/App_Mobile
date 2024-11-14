@@ -32,8 +32,8 @@ a {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    color: rgb(0, 83, 225);
-    background: linear-gradient(45deg, #fbff12, #13ff0a);
+    color: rgb(0, 0, 0);
+    background: linear-gradient(45deg, #37ff59, #19f3ff);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -472,7 +472,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: gra;
+    color: #ff0000;
 }
 
 /* SECTION-6 */
@@ -557,15 +557,20 @@ a {
 .lab06 .gender-container {
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
 
 .lab06 .gender-container label {
-    margin-right: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.lab06 .gender-container input {
+    width: 15px;
+    height: 15px;
 }
 
-.lab06 .gender-container input {
-    margin-right: 10px;
-    background-color: none;
+.lab06 .gender-container #female {
+    margin-left: 100px;
 }
 
 /* SECTION-7 */

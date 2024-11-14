@@ -1,0 +1,787 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back-next {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.back-next .buttona {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 83, 225);
+    background: linear-gradient(45deg, #fbff12, #13ff0a);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.back-next .buttona:hover {
+    transform: scale(1.05);
+}
+/* SECTION-1 */
+
+.lab01 .section {
+    width: 390px;
+    height: 844px;
+    background-color: #00CCF9;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab01 .circle {
+    margin-top: 60px;
+    width: 140px;
+    height: 140px;
+    border: 15px solid black;
+    border-radius: 50%;
+}
+
+.lab01 .title {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 80px;
+    text-align: center;
+}
+
+.lab01 .description {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.lab01 .button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 25%;
+}
+
+.lab01 .login button {
+    width: 120px;
+    height: 48px;
+    background-color: rgb(223, 176, 24);
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lab01 .signup button {
+    width: 120px;
+    height: 48px;
+    background-color: rgb(223, 176, 24);
+    color: black;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* SECTION-2 */
+
+.lab02 .section {
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(to bottom, #d8f9ff 85%, #35e4ff);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab02 .circle {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 140px;
+    height: 140px;
+    border: 15px solid black;
+    border-radius: 50%;
+}
+
+.lab02 .title {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 50px;
+    text-align: center;
+}
+
+
+.lab02 .title2 {
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+.lab02 .description {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.lab02 .button {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.lab02 .login button {
+    width: 120px;
+    height: 48px;
+    background-color: rgb(223, 176, 24);
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.lab02 .signup button {
+    width: 120px;
+    height: 48px;
+    background-color: rgb(223, 176, 24);
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* SECTION-3 */
+
+.lab03 .section {
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(to bottom, #d8f9ff 85%, #35e4ff);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab03 .icon {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab03 .icon i {
+    font-size: 110px;
+}
+
+.lab03 .title {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 113px;
+    text-align: center;
+}
+
+.lab03 .description {
+    text-align: center;
+    margin: 0 26px;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+.lab03 .box {
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.lab03 .sub-icon {
+    margin: 0 5%;
+}
+
+.lab03 .box input {
+    border: 1px solid white;
+    width: 280px;
+    height: 45px;
+    outline: none;
+}
+
+.lab03 .button {
+    margin: 20px 35px;
+    background-color: rgb(255, 210, 46);
+    width: 305px;
+    height: 45px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+}
+
+/* SECTION-4 */
+
+.lab04 .code-input {
+    display: flex;
+}
+
+.lab04 .section {
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(to bottom, #d8f9ff 85%, #35e4ff);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab04 .title {
+    width: 100%;
+    height: 25%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.lab04 .title h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.lab04 .sub-title {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.lab04 .sub-title h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lab04 .description {
+    width: 100%;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.lab04 .code-input {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    padding: 0 30px;
+}
+.lab04 .code-input input {
+    padding: 25px 0;
+    background: none;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #000000;
+    outline: none;
+    box-shadow: inset 0 0 3px #6a6a6a;
+}
+
+.lab04 .code-input input:focus {
+    border-color: #007bff;
+}
+.lab04 .button {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 50px;
+    background-color: rgb(255, 210, 46);
+    margin-top: -90px;
+}
+.lab04 .button button {
+    background-color: rgb(255, 210, 46);
+    border: none;
+    font-size: 20px;
+    
+}
+
+/* SECTION-5 */
+
+.lab05 .title {
+    width: 100%;
+    margin-bottom: -250px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.lab05 .section {
+    width: 390px;
+    height: 844px;
+    background: #31AA5230;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab05 .input {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.lab05 .input .Email {
+    background-color: #C4C4C44D;
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    padding-left: 20px;
+    margin-left: 20px;
+    outline: none;
+}
+
+.lab05 .input .Password {
+    background-color: #C4C4C44D;
+    margin-left: 20px;
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+}
+
+.lab05 .input i::before {
+    box-sizing: border-box;
+    font-size: 25px;
+    margin-left: -50px;
+}
+
+.lab05 .input button {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    background-color: #E53935;
+    color: white;
+    font-weight: 700;
+}
+
+.lab05 .terms {
+    margin-top: -30px;
+}
+
+.lab05 .forget {
+    width: 100%;
+    margin-top: -50px;
+    text-align: center;
+    color: #5D25FA;
+}
+.lab05 .text {
+    width: 100%;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.lab05 .socials {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.lab05 .socials .facebook {
+    width: 100px;
+    height: 50px;
+    background-color: #25479B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.lab05 .socials .zalo {
+    width: 100px;
+    height: 50px;
+    background-color: #0F8EE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.lab05 .socials .google {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #0680F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: gra;
+}
+
+/* SECTION-6 */
+
+.lab06 .section {
+    width: 390px;
+    height: 844px;
+    background: rgba(49, 170, 82, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.lab06 .title {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+}
+
+.lab06 .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lab06 .form input {
+    background: #C4C4C44D;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.lab06 .password-container {
+    position: relative;
+    width: 100%;
+}
+
+.lab06 .password-container input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.lab06 .password-container .icon {
+    position: absolute;
+    font-size: 25px;
+    right: 10px;
+    top: 5px;
+    border-radius: 5%;
+    color: #000000;
+}
+
+.lab06 .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(229, 57, 53, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lab06 .form button:hover {
+    background-color: rgb(149, 38, 36);
+}
+
+.lab06 .gender-container {
+    display: flex;
+    text-align: center;
+}
+
+.lab06 .gender-container label {
+    margin-right: 10px;
+}
+
+.lab06 .gender-container input {
+    margin-right: 10px;
+    background-color: none;
+}
+
+/* SECTION-7 */
+
+.lab07 .section {
+    width: 390px;
+    height: 844px;
+    background: linear-gradient(to bottom, #ffcb0d 50%, #ba9100);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab07 .title {
+    height: 10%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.lab07 .login {
+    width: 100%;
+    align-items: center;
+}
+
+.lab07 .name {
+    background-color: rgba(196, 196, 196, 0.3);
+    border: 1px solid #ffffff;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+
+.lab07 .name i {
+    box-sizing: border-box;
+    font-size: 25px;
+    margin: 10px 20px;
+}
+
+.lab07 .name input {
+    width: 80%;
+    padding: 20px 0;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.lab07 .password {
+    background-color: rgba(196, 196, 196, 0.3);
+    border: 1px solid #ffffff;
+    margin: 0 10px;
+    margin-bottom: 75px;
+}
+
+.lab07 .password i {
+    box-sizing: border-box;
+    font-size: 25px;
+    margin: 10px 20px;
+}
+
+.lab07 .password .icon {
+    position: relative;
+}
+
+.lab07 .password input {
+    width: 60%;
+    padding: 20px 0;
+    font-size: 15px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.lab07 .button {
+    width: 90%;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+.lab07 .sub-title {
+    height: 20%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* SECTION-8 */
+
+.lab08 .section {
+    width: 390px;
+    height: 844px;
+    background: rgb(238, 247, 255);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lab08 .logo {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.lab08 .input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lab08 .input .name {
+    padding: 10px 0px;
+    margin: 0 30px;
+    border-bottom: 1px solid #000;
+}
+
+.lab08 .input .name i {
+    box-sizing: border-box;
+    font-size: 35px;
+    margin: 0px 20px;
+}
+
+.lab08 .input .name input {
+    width: 70%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.lab08 .input .password {
+    padding: 10px 0px;
+    margin: 20px 30px;
+    border-bottom: 1px solid #000;
+}
+
+.lab08 .input .password i {
+    box-sizing: border-box;
+    font-size: 35px;
+    margin: 0px 20px;
+}
+
+.lab08 .input .password input {
+    width: 70%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.lab08 .input button {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(57, 120, 255);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 20px;
+}
+
+.lab08 .input button:hover {
+    background-color: rgb(28, 68, 154);
+}
+
+.lab08 .other {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lab08 .other a {
+    color: black;
+}
+
+.lab08 .other a:hover {
+    color: blue;
+}
+
+.lab08 .sub-title {
+    width: 90%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.lab08 .sub-title::after,
+.sub-title::before {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgb(45, 45, 255);
+    margin: 0 10px;
+}
+
+.lab08 .socials {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lab08 .socials div {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.lab08 .socials .user {
+    background-color: rgb(36, 182, 255);
+}
+
+.lab08 .socials .wifi {
+    background-color: rgba(244, 170, 71, 1);
+}
+
+.lab08 .socials .facebook {
+    background-color: rgba(58, 87, 156, 1);
+}
+
+.lab08 .socials i {
+    font-size: 40px;
+}

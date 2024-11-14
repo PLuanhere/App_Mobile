@@ -336,16 +336,16 @@ a {
 /* SECTION-5 */
 
 .lab05 .title {
-    height: 100vw;
-    font-size: 100vh;
+    height: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     padding-top: 30px;
 }
 
 .lab05 .section {
-    width: 390px;
-    height: 844px;
+    width: 100vw;
+    height: 100vh;
     background: #31AA5230;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -472,7 +472,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color: #ff0000;
+    color: #e5c835;
 }
 
 /* SECTION-6 */

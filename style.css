@@ -54,6 +54,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .lab01 .circle {
@@ -119,6 +120,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .lab02 .circle {
@@ -190,6 +192,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .lab03 .icon {
@@ -263,6 +266,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .lab04 .title {
@@ -351,6 +355,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
 }
 
 .lab05 .input {
@@ -490,6 +495,7 @@ a {
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     align-items: center;
+    overflow: hidden;
 }
 
 .lab06 .title {
@@ -583,6 +589,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
 }
 
 .lab07 .title {
@@ -674,6 +681,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
 }
 
 .lab08 .logo {

@@ -660,6 +660,13 @@ a {
     outline: none;
 }
 
+.lab07 .outbutton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lab07 .button {
     width: 90%;
     height: 50px;
@@ -761,6 +768,13 @@ a {
     font-weight: 700;
     color: #ffffff;
     margin: 0 20px;
+}
+
+.lab08 .outbutton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lab08 .input button:hover {
